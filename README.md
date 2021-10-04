@@ -2,13 +2,11 @@
 
 Starter code for a clean Next.js + TypeScript + ESLint project.
 
-More info here: https://paulintrognon.fr/blog/post/typescript-prettier-eslint-next-js
-
 ## Get started
 
 ```sh
 # Install dependencies
-yarn install
+yarn
 
 # Enable husky
 yarn husky install
@@ -17,14 +15,11 @@ yarn husky install
 yarn dev
 ```
 
-## What is the difference with official with-typescript-eslint-jest
+## From Create-Next-App
 
-Vercel made an official similar example template: https://github.com/vercel/next.js/tree/canary/examples/with-typescript-eslint-jest
+Some differences are:
 
-Main differences are:
-
-- It uses latest Husky v7 version
-- ESLint and Prettier are integrated with VSCode to fix and format code on save (you need eslint and prettier VSCode plugins)
-- Improved lint-staged configuration: linting will only happen on staged files, not all file
-- TypeScript types are checked before each commit, not just on `git push`.
-- You can build it yourself by [reading the blog post](https://paulintrognon.fr/blog/typescript-prettier-eslint-next-js) :-)
+- Using `npx tsconfig.json` for Nextjs
+- Husky package
+- ESLint and Prettier are integrated with VSCode
+- Lint-staged package: linting will only happen on staged files, not all file
