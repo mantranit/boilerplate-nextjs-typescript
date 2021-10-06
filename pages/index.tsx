@@ -11,7 +11,7 @@ export default function HomePage(): JSX.Element {
       </Head>
 
       <h1 className={styles.title}>
-        Welcome to <a href="javascript:void(0);">Next.js!</a>
+        Welcome to <a onClick={(e) => e.preventDefault()}>Next.js!</a>
       </h1>
     </>
   );
