@@ -8,9 +8,6 @@ Starter code for a clean Next.js + TypeScript + ESLint project.
 # Install dependencies
 yarn
 
-# Enable husky
-yarn husky install
-
 # Start dev server
 yarn dev
 ```
